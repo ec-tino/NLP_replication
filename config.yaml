@@ -6,10 +6,27 @@ mode:
 
 models:
     hf_causal_model:
-      - distilbert/distilgpt2
+      - google-bert/bert-base-multilingual-cased
+      - google-bert/bert-base-cased
     
 datafpath: ../midterm/language/english/data_file/long_vp_coord.tsv
 predfpath: ../midterm/language/english/pred_file/long_vp_coord.tsv
 resultsfpath: ../midterm/language/english/results_file/long_vp_coord.tsv
+
+# datafpath: ../midterm/language/english/data_file/npi_across_anim.tsv
+# predfpath: ../midterm/language/english/pred_file/npi_across_anim.tsv
+# resultsfpath: ../midterm/language/english/results_file/npi_across_anim.tsv
+
+# datafpath: ../midterm/language/english/data_file/npi_across_inanim.tsv
+# predfpath: ../midterm/language/english/pred_file/npi_across_inanim.tsv
+# resultsfpath: ../midterm/language/english/results_file/npi_across_inanim.tsv
+
+# datafpath: ../midterm/language/english/data_file/obj_rel_across_anim.tsv
+# predfpath: ../midterm/language/english/pred_file/obj_rel_across_anim.tsv
+# resultsfpath: ../midterm/language/english/results_file/obj_rel_across_anim.tsv
+
+# datafpath: ../midterm/language/english/data_file/obj_rel_across_inanim.tsv
+# predfpath: ../midterm/language/english/pred_file/obj_rel_across_inanim.tsv
+# resultsfpath: ../midterm/language/english/results_file/obj_rel_across_inanim.tsv
 
 save: by_cond
