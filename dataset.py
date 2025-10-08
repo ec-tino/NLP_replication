@@ -1,4 +1,16 @@
 import csv
+import os
+
+def get_file_names_in_folder(folder_path):
+    file_names = []
+    if os.path.isdir(folder_path):
+        for entry in os.listdir(folder_path):
+            full_path = os.path.join(folder_path, entry)
+            if os.path.isfile(full_path):
+                file_names.append(entry)
+    else:
+        print(f"Error: '{folder_path}' is not a valid directory.")
+    return file_names
 
 def generate(input_file, output_file):
     with open(input_file, "r", encoding="utf-8") as f:
@@ -15,4 +27,9 @@ def generate(input_file, output_file):
                 writer.writerow([sentid, pairid, sent, comparison])
                 sentid += 1  
 
-generate("test.txt", "text.tsv")
+file_names = get_file_names_in_folder("eval_file")
+
+for name in file_names:
+    # Remove the .txt extension
+    base_name = os.path.splitext(name)[0]
+    generate(f"eval_file/{name}", f"data_file/{base_name}.tsv")
