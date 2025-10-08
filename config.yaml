@@ -5,7 +5,7 @@ mode:
   - analyze
 
 models:
-    hf_causal_model:
+    hf_masked_model:
       - google-bert/bert-base-multilingual-cased
       - google-bert/bert-base-cased
     
