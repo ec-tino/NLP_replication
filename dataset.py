@@ -18,12 +18,16 @@ def generate(input_file, output_file):
 
     with open(output_file, "w", newline='', encoding="utf-8") as f:
         writer = csv.writer(f, delimiter='\t')
-        writer.writerow(["sentid", "pairid", "sent", "comparison"])
+        writer.writerow(["sentid", "pairid", "sentence", "comparison"])
         sentid = 1
         for i in range(0, len(lines), 2):
             pairid = i // 2 + 1
             for line in lines[i:i+2]:
                 comparison, sent = line.split('\t', 1)
+                if comparison == "True":
+                    comparison = "expected"
+                else:
+                    comparison = "unexpected"
                 writer.writerow([sentid, pairid, sent, comparison])
                 sentid += 1
 
