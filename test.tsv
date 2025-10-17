@@ -1,0 +1,13 @@
+sentid	pairid	sentence	comparison	ROI
+1	1	the author knows many different foreign languages and likes to watch television shows	expected	8
+2	1	the author knows many different foreign languages and like to watch television shows	unexpected	8
+3	2	the author knows many different foreign languages and is twenty three years old	expected	8
+4	2	the author knows many different foreign languages and are twenty three years old	unexpected	8
+5	3	the author knows many different foreign languages and enjoys playing tennis with colleagues	expected	8
+6	3	the author knows many different foreign languages and enjoy playing tennis with colleagues	unexpected	8
+7	4	the author knows many different foreign languages and writes in a journal every day	expected	8
+8	4	the author knows many different foreign languages and write in a journal every day	unexpected	8
+9	5	the author likes to watch television shows and knows many different foreign languages	expected	8
+10	5	the author likes to watch television shows and know many different foreign languages	unexpected	8
+11	6	the author likes to watch television shows and is twenty three years old	expected	8
+12	6	the author likes to watch television shows and are twenty three years old	unexpected	8

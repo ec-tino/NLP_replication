@@ -1,0 +1,13 @@
+sentid	pairid	sentence	comparison	ROI
+1	1	"pairid	sent	comparison"	unexpected	0
+2	1	"1	the author knows many different foreign languages and likes to watch television shows	True"	unexpected	0
+3	2	"1	the author knows many different foreign languages and like to watch television shows	False"	unexpected	0
+4	2	"2	the author knows many different foreign languages and is twenty three years old	True"	unexpected	0
+5	3	"2	the author knows many different foreign languages and are twenty three years old	False"	unexpected	0
+6	3	"3	the author knows many different foreign languages and enjoys playing tennis with colleagues	True"	unexpected	0
+7	4	"3	the author knows many different foreign languages and enjoy playing tennis with colleagues	False"	unexpected	0
+8	4	"4	the author knows many different foreign languages and writes in a journal every day	True"	unexpected	0
+9	5	"4	the author knows many different foreign languages and write in a journal every day	False"	unexpected	0
+10	5	"5	the author likes to watch television shows and knows many different foreign languages	True"	unexpected	0
+11	6	"5	the author likes to watch television shows and know many different foreign languages	False"	unexpected	0
+12	6	"6	the author likes to watch television shows and is twenty three years old	True"	unexpected	0
