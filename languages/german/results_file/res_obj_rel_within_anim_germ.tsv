@@ -1,0 +1,2 @@
+	model	acc	diff	expected	unexpected	macrodiff
+0	google-bert/bert-base-multilingual-cased	0.5094642857142857	-0.032538511781354564	4.9088192850190016	4.941357796800356	-0.032538511781354806
