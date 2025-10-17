@@ -1,0 +1,31 @@
+exp: MinimalPair
+
+mode:
+  - evaluate
+  - analyze
+
+models:
+  hf_masked_model:
+    - google-bert/bert-base-multilingual-cased
+    - google-bert/bert-base-cased
+
+
+save: by_cond
+
+device: best
+
+# ================= DATA FILES =================
+
+#datafpath: ../cosc426/midterm/language/english/data_file/long_vp_coord.tsv
+datafpath: ../cosc426/midterm/language/english/data_file/obj_rel_across_anim.tsv
+# datafpath: ../cosc426/midterm/language/english/data_file/obj_rel_across_inanim.tsv
+
+#predfpath: ../cosc426/midterm/language/english/pred_file/long_vp_coord.tsv
+predfpath: ../cosc426/midterm/language/english/pred_file/obj_rel_across_anim.tsv
+#predfpath: ../cosc426/midterm/language/english/pred_file/obj_rel_across_inanim.tsv
+
+#resultsfpath: ../cosc426/midterm/language/english/results_file/long_vp_coord.tsv
+resultsfpath: ../cosc426/midterm/language/english/results_file/obj_rel_across_anim.tsv
+#resultsfpath: ../cosc426/midterm/language/english/results_file/obj_rel_across_inanim.tsv
+
+
