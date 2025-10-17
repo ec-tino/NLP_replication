@@ -1,0 +1,561 @@
+sentid	pairid	sentence	comparison	ROI	word
+1	1	les auteurs sont vieux	expected	2	sont
+2	1	les auteurs est vieux	unexpected	2	est
+3	2	les auteurs sont jeunes	expected	2	sont
+4	2	les auteurs est jeune	unexpected	2	est
+5	3	les auteurs sont petits	expected	2	sont
+6	3	les auteurs est petit	unexpected	2	est
+7	4	les auteurs sont grands	expected	2	sont
+8	4	les auteurs est grand	unexpected	2	est
+9	5	les auteurs déménagent	expected	2	déménagent
+10	5	les auteurs déménage	unexpected	2	déménage
+11	6	les auteurs parlent	expected	2	parlent
+12	6	les auteurs parle	unexpected	2	parle
+13	7	les auteurs retournent	expected	2	retournent
+14	7	les auteurs retourne	unexpected	2	retourne
+15	8	les directeurs sont vieux	expected	2	sont
+16	8	les directeurs est vieux	unexpected	2	est
+17	9	les directeurs sont jeunes	expected	2	sont
+18	9	les directeurs est jeune	unexpected	2	est
+19	10	les directeurs sont petits	expected	2	sont
+20	10	les directeurs est petit	unexpected	2	est
+21	11	les directeurs sont grands	expected	2	sont
+22	11	les directeurs est grand	unexpected	2	est
+23	12	les directeurs déménagent	expected	2	déménagent
+24	12	les directeurs déménage	unexpected	2	déménage
+25	13	les directeurs parlent	expected	2	parlent
+26	13	les directeurs parle	unexpected	2	parle
+27	14	les directeurs retournent	expected	2	retournent
+28	14	les directeurs retourne	unexpected	2	retourne
+29	15	les agriculteurs sont vieux	expected	2	sont
+30	15	les agriculteurs est vieux	unexpected	2	est
+31	16	les agriculteurs sont jeunes	expected	2	sont
+32	16	les agriculteurs est jeune	unexpected	2	est
+33	17	les agriculteurs sont petits	expected	2	sont
+34	17	les agriculteurs est petit	unexpected	2	est
+35	18	les agriculteurs sont grands	expected	2	sont
+36	18	les agriculteurs est grand	unexpected	2	est
+37	19	les agriculteurs déménagent	expected	2	déménagent
+38	19	les agriculteurs déménage	unexpected	2	déménage
+39	20	les agriculteurs parlent	expected	2	parlent
+40	20	les agriculteurs parle	unexpected	2	parle
+41	21	les agriculteurs retournent	expected	2	retournent
+42	21	les agriculteurs retourne	unexpected	2	retourne
+43	22	les chirurgiens sont vieux	expected	2	sont
+44	22	les chirurgiens est vieux	unexpected	2	est
+45	23	les chirurgiens sont jeunes	expected	2	sont
+46	23	les chirurgiens est jeune	unexpected	2	est
+47	24	les chirurgiens sont petits	expected	2	sont
+48	24	les chirurgiens est petit	unexpected	2	est
+49	25	les chirurgiens sont grands	expected	2	sont
+50	25	les chirurgiens est grand	unexpected	2	est
+51	26	les chirurgiens déménagent	expected	2	déménagent
+52	26	les chirurgiens déménage	unexpected	2	déménage
+53	27	les chirurgiens parlent	expected	2	parlent
+54	27	les chirurgiens parle	unexpected	2	parle
+55	28	les chirurgiens retournent	expected	2	retournent
+56	28	les chirurgiens retourne	unexpected	2	retourne
+57	29	les sénateurs sont vieux	expected	2	sont
+58	29	les sénateurs est vieux	unexpected	2	est
+59	30	les sénateurs sont jeunes	expected	2	sont
+60	30	les sénateurs est jeune	unexpected	2	est
+61	31	les sénateurs sont petits	expected	2	sont
+62	31	les sénateurs est petit	unexpected	2	est
+63	32	les sénateurs sont grands	expected	2	sont
+64	32	les sénateurs est grand	unexpected	2	est
+65	33	les sénateurs déménagent	expected	2	déménagent
+66	33	les sénateurs déménage	unexpected	2	déménage
+67	34	les sénateurs parlent	expected	2	parlent
+68	34	les sénateurs parle	unexpected	2	parle
+69	35	les sénateurs retournent	expected	2	retournent
+70	35	les sénateurs retourne	unexpected	2	retourne
+71	36	les professeurs sont vieux	expected	2	sont
+72	36	les professeurs est vieux	unexpected	2	est
+73	37	les professeurs sont jeunes	expected	2	sont
+74	37	les professeurs est jeune	unexpected	2	est
+75	38	les professeurs sont petits	expected	2	sont
+76	38	les professeurs est petit	unexpected	2	est
+77	39	les professeurs sont grands	expected	2	sont
+78	39	les professeurs est grand	unexpected	2	est
+79	40	les professeurs déménagent	expected	2	déménagent
+80	40	les professeurs déménage	unexpected	2	déménage
+81	41	les professeurs parlent	expected	2	parlent
+82	41	les professeurs parle	unexpected	2	parle
+83	42	les professeurs retournent	expected	2	retournent
+84	42	les professeurs retourne	unexpected	2	retourne
+85	43	les clients sont vieux	expected	2	sont
+86	43	les clients est vieux	unexpected	2	est
+87	44	les clients sont jeunes	expected	2	sont
+88	44	les clients est jeune	unexpected	2	est
+89	45	les clients sont petits	expected	2	sont
+90	45	les clients est petit	unexpected	2	est
+91	46	les clients sont grands	expected	2	sont
+92	46	les clients est grand	unexpected	2	est
+93	47	les clients déménagent	expected	2	déménagent
+94	47	les clients déménage	unexpected	2	déménage
+95	48	les clients parlent	expected	2	parlent
+96	48	les clients parle	unexpected	2	parle
+97	49	les clients retournent	expected	2	retournent
+98	49	les clients retourne	unexpected	2	retourne
+99	50	les officiers sont vieux	expected	2	sont
+100	50	les officiers est vieux	unexpected	2	est
+101	51	les officiers sont jeunes	expected	2	sont
+102	51	les officiers est jeune	unexpected	2	est
+103	52	les officiers sont petits	expected	2	sont
+104	52	les officiers est petit	unexpected	2	est
+105	53	les officiers sont grands	expected	2	sont
+106	53	les officiers est grand	unexpected	2	est
+107	54	les officiers déménagent	expected	2	déménagent
+108	54	les officiers déménage	unexpected	2	déménage
+109	55	les officiers parlent	expected	2	parlent
+110	55	les officiers parle	unexpected	2	parle
+111	56	les officiers retournent	expected	2	retournent
+112	56	les officiers retourne	unexpected	2	retourne
+113	57	les pilotes sont vieux	expected	2	sont
+114	57	les pilotes est vieux	unexpected	2	est
+115	58	les pilotes sont jeunes	expected	2	sont
+116	58	les pilotes est jeune	unexpected	2	est
+117	59	les pilotes sont petits	expected	2	sont
+118	59	les pilotes est petit	unexpected	2	est
+119	60	les pilotes sont grands	expected	2	sont
+120	60	les pilotes est grand	unexpected	2	est
+121	61	les pilotes déménagent	expected	2	déménagent
+122	61	les pilotes déménage	unexpected	2	déménage
+123	62	les pilotes parlent	expected	2	parlent
+124	62	les pilotes parle	unexpected	2	parle
+125	63	les pilotes retournent	expected	2	retournent
+126	63	les pilotes retourne	unexpected	2	retourne
+127	64	les consultants sont vieux	expected	2	sont
+128	64	les consultants est vieux	unexpected	2	est
+129	65	les consultants sont jeunes	expected	2	sont
+130	65	les consultants est jeune	unexpected	2	est
+131	66	les consultants sont petits	expected	2	sont
+132	66	les consultants est petit	unexpected	2	est
+133	67	les consultants sont grands	expected	2	sont
+134	67	les consultants est grand	unexpected	2	est
+135	68	les consultants déménagent	expected	2	déménagent
+136	68	les consultants déménage	unexpected	2	déménage
+137	69	les consultants parlent	expected	2	parlent
+138	69	les consultants parle	unexpected	2	parle
+139	70	les consultants retournent	expected	2	retournent
+140	70	les consultants retourne	unexpected	2	retourne
+141	71	l' auteur est vieux	expected	2	est
+142	71	l' auteur sont vieux	unexpected	2	sont
+143	72	l' auteur est jeune	expected	2	est
+144	72	l' auteur sont jeunes	unexpected	2	sont
+145	73	l' auteur est petit	expected	2	est
+146	73	l' auteur sont petits	unexpected	2	sont
+147	74	l' auteur est grand	expected	2	est
+148	74	l' auteur sont grands	unexpected	2	sont
+149	75	l' auteur déménage	expected	2	déménage
+150	75	l' auteur déménagent	unexpected	2	déménagent
+151	76	l' auteur parle	expected	2	parle
+152	76	l' auteur parlent	unexpected	2	parlent
+153	77	l' auteur retourne	expected	2	retourne
+154	77	l' auteur retournent	unexpected	2	retournent
+155	78	le directeur est vieux	expected	2	est
+156	78	le directeur sont vieux	unexpected	2	sont
+157	79	le directeur est jeune	expected	2	est
+158	79	le directeur sont jeunes	unexpected	2	sont
+159	80	le directeur est petit	expected	2	est
+160	80	le directeur sont petits	unexpected	2	sont
+161	81	le directeur est grand	expected	2	est
+162	81	le directeur sont grands	unexpected	2	sont
+163	82	le directeur déménage	expected	2	déménage
+164	82	le directeur déménagent	unexpected	2	déménagent
+165	83	le directeur parle	expected	2	parle
+166	83	le directeur parlent	unexpected	2	parlent
+167	84	le directeur retourne	expected	2	retourne
+168	84	le directeur retournent	unexpected	2	retournent
+169	85	l' agriculteur est vieux	expected	2	est
+170	85	l' agriculteur sont vieux	unexpected	2	sont
+171	86	l' agriculteur est jeune	expected	2	est
+172	86	l' agriculteur sont jeunes	unexpected	2	sont
+173	87	l' agriculteur est petit	expected	2	est
+174	87	l' agriculteur sont petits	unexpected	2	sont
+175	88	l' agriculteur est grand	expected	2	est
+176	88	l' agriculteur sont grands	unexpected	2	sont
+177	89	l' agriculteur déménage	expected	2	déménage
+178	89	l' agriculteur déménagent	unexpected	2	déménagent
+179	90	l' agriculteur parle	expected	2	parle
+180	90	l' agriculteur parlent	unexpected	2	parlent
+181	91	l' agriculteur retourne	expected	2	retourne
+182	91	l' agriculteur retournent	unexpected	2	retournent
+183	92	le chirurgien est vieux	expected	2	est
+184	92	le chirurgien sont vieux	unexpected	2	sont
+185	93	le chirurgien est jeune	expected	2	est
+186	93	le chirurgien sont jeunes	unexpected	2	sont
+187	94	le chirurgien est petit	expected	2	est
+188	94	le chirurgien sont petits	unexpected	2	sont
+189	95	le chirurgien est grand	expected	2	est
+190	95	le chirurgien sont grands	unexpected	2	sont
+191	96	le chirurgien déménage	expected	2	déménage
+192	96	le chirurgien déménagent	unexpected	2	déménagent
+193	97	le chirurgien parle	expected	2	parle
+194	97	le chirurgien parlent	unexpected	2	parlent
+195	98	le chirurgien retourne	expected	2	retourne
+196	98	le chirurgien retournent	unexpected	2	retournent
+197	99	le sénateur est vieux	expected	2	est
+198	99	le sénateur sont vieux	unexpected	2	sont
+199	100	le sénateur est jeune	expected	2	est
+200	100	le sénateur sont jeunes	unexpected	2	sont
+201	101	le sénateur est petit	expected	2	est
+202	101	le sénateur sont petits	unexpected	2	sont
+203	102	le sénateur est grand	expected	2	est
+204	102	le sénateur sont grands	unexpected	2	sont
+205	103	le sénateur déménage	expected	2	déménage
+206	103	le sénateur déménagent	unexpected	2	déménagent
+207	104	le sénateur parle	expected	2	parle
+208	104	le sénateur parlent	unexpected	2	parlent
+209	105	le sénateur retourne	expected	2	retourne
+210	105	le sénateur retournent	unexpected	2	retournent
+211	106	le professeur est vieux	expected	2	est
+212	106	le professeur sont vieux	unexpected	2	sont
+213	107	le professeur est jeune	expected	2	est
+214	107	le professeur sont jeunes	unexpected	2	sont
+215	108	le professeur est petit	expected	2	est
+216	108	le professeur sont petits	unexpected	2	sont
+217	109	le professeur est grand	expected	2	est
+218	109	le professeur sont grands	unexpected	2	sont
+219	110	le professeur déménage	expected	2	déménage
+220	110	le professeur déménagent	unexpected	2	déménagent
+221	111	le professeur parle	expected	2	parle
+222	111	le professeur parlent	unexpected	2	parlent
+223	112	le professeur retourne	expected	2	retourne
+224	112	le professeur retournent	unexpected	2	retournent
+225	113	le client est vieux	expected	2	est
+226	113	le client sont vieux	unexpected	2	sont
+227	114	le client est jeune	expected	2	est
+228	114	le client sont jeunes	unexpected	2	sont
+229	115	le client est petit	expected	2	est
+230	115	le client sont petits	unexpected	2	sont
+231	116	le client est grand	expected	2	est
+232	116	le client sont grands	unexpected	2	sont
+233	117	le client déménage	expected	2	déménage
+234	117	le client déménagent	unexpected	2	déménagent
+235	118	le client parle	expected	2	parle
+236	118	le client parlent	unexpected	2	parlent
+237	119	le client retourne	expected	2	retourne
+238	119	le client retournent	unexpected	2	retournent
+239	120	l' officier est vieux	expected	2	est
+240	120	l' officier sont vieux	unexpected	2	sont
+241	121	l' officier est jeune	expected	2	est
+242	121	l' officier sont jeunes	unexpected	2	sont
+243	122	l' officier est petit	expected	2	est
+244	122	l' officier sont petits	unexpected	2	sont
+245	123	l' officier est grand	expected	2	est
+246	123	l' officier sont grands	unexpected	2	sont
+247	124	l' officier déménage	expected	2	déménage
+248	124	l' officier déménagent	unexpected	2	déménagent
+249	125	l' officier parle	expected	2	parle
+250	125	l' officier parlent	unexpected	2	parlent
+251	126	l' officier retourne	expected	2	retourne
+252	126	l' officier retournent	unexpected	2	retournent
+253	127	le pilote est vieux	expected	2	est
+254	127	le pilote sont vieux	unexpected	2	sont
+255	128	le pilote est jeune	expected	2	est
+256	128	le pilote sont jeunes	unexpected	2	sont
+257	129	le pilote est petit	expected	2	est
+258	129	le pilote sont petits	unexpected	2	sont
+259	130	le pilote est grand	expected	2	est
+260	130	le pilote sont grands	unexpected	2	sont
+261	131	le pilote déménage	expected	2	déménage
+262	131	le pilote déménagent	unexpected	2	déménagent
+263	132	le pilote parle	expected	2	parle
+264	132	le pilote parlent	unexpected	2	parlent
+265	133	le pilote retourne	expected	2	retourne
+266	133	le pilote retournent	unexpected	2	retournent
+267	134	le consultant est vieux	expected	2	est
+268	134	le consultant sont vieux	unexpected	2	sont
+269	135	le consultant est jeune	expected	2	est
+270	135	le consultant sont jeunes	unexpected	2	sont
+271	136	le consultant est petit	expected	2	est
+272	136	le consultant sont petits	unexpected	2	sont
+273	137	le consultant est grand	expected	2	est
+274	137	le consultant sont grands	unexpected	2	sont
+275	138	le consultant déménage	expected	2	déménage
+276	138	le consultant déménagent	unexpected	2	déménagent
+277	139	le consultant parle	expected	2	parle
+278	139	le consultant parlent	unexpected	2	parlent
+279	140	le consultant retourne	expected	2	retourne
+280	140	le consultant retournent	unexpected	2	retournent
+281	141	les gardes sont vieux	expected	2	sont
+282	141	les gardes est vieux	unexpected	2	est
+283	142	les gardes sont jeunes	expected	2	sont
+284	142	les gardes est jeune	unexpected	2	est
+285	143	les gardes sont petits	expected	2	sont
+286	143	les gardes est petit	unexpected	2	est
+287	144	les gardes sont grands	expected	2	sont
+288	144	les gardes est grand	unexpected	2	est
+289	145	les gardes déménagent	expected	2	déménagent
+290	145	les gardes déménage	unexpected	2	déménage
+291	146	les gardes parlent	expected	2	parlent
+292	146	les gardes parle	unexpected	2	parle
+293	147	les gardes retournent	expected	2	retournent
+294	147	les gardes retourne	unexpected	2	retourne
+295	148	les ministres sont vieux	expected	2	sont
+296	148	les ministres est vieux	unexpected	2	est
+297	149	les ministres sont jeunes	expected	2	sont
+298	149	les ministres est jeune	unexpected	2	est
+299	150	les ministres sont petits	expected	2	sont
+300	150	les ministres est petit	unexpected	2	est
+301	151	les ministres sont grands	expected	2	sont
+302	151	les ministres est grand	unexpected	2	est
+303	152	les ministres déménagent	expected	2	déménagent
+304	152	les ministres déménage	unexpected	2	déménage
+305	153	les ministres parlent	expected	2	parlent
+306	153	les ministres parle	unexpected	2	parle
+307	154	les ministres retournent	expected	2	retournent
+308	154	les ministres retourne	unexpected	2	retourne
+309	155	les cadres sont vieux	expected	2	sont
+310	155	les cadres est vieux	unexpected	2	est
+311	156	les cadres sont jeunes	expected	2	sont
+312	156	les cadres est jeune	unexpected	2	est
+313	157	les cadres sont petits	expected	2	sont
+314	157	les cadres est petit	unexpected	2	est
+315	158	les cadres sont grands	expected	2	sont
+316	158	les cadres est grand	unexpected	2	est
+317	159	les cadres déménagent	expected	2	déménagent
+318	159	les cadres déménage	unexpected	2	déménage
+319	160	les cadres parlent	expected	2	parlent
+320	160	les cadres parle	unexpected	2	parle
+321	161	les cadres retournent	expected	2	retournent
+322	161	les cadres retourne	unexpected	2	retourne
+323	162	les adjoints sont vieux	expected	2	sont
+324	162	les adjoints est vieux	unexpected	2	est
+325	163	les adjoints sont jeunes	expected	2	sont
+326	163	les adjoints est jeune	unexpected	2	est
+327	164	les adjoints sont petits	expected	2	sont
+328	164	les adjoints est petit	unexpected	2	est
+329	165	les adjoints sont grands	expected	2	sont
+330	165	les adjoints est grand	unexpected	2	est
+331	166	les adjoints déménagent	expected	2	déménagent
+332	166	les adjoints déménage	unexpected	2	déménage
+333	167	les adjoints parlent	expected	2	parlent
+334	167	les adjoints parle	unexpected	2	parle
+335	168	les adjoints retournent	expected	2	retournent
+336	168	les adjoints retourne	unexpected	2	retourne
+337	169	les chauffeurs de taxi sont vieux	expected	4	sont
+338	169	les chauffeurs de taxi est vieux	unexpected	4	est
+339	170	les chauffeurs de taxi sont jeunes	expected	4	sont
+340	170	les chauffeurs de taxi est jeune	unexpected	4	est
+341	171	les chauffeurs de taxi sont petits	expected	4	sont
+342	171	les chauffeurs de taxi est petit	unexpected	4	est
+343	172	les chauffeurs de taxi sont grands	expected	4	sont
+344	172	les chauffeurs de taxi est grand	unexpected	4	est
+345	173	les chauffeurs de taxi déménagent	expected	4	déménagent
+346	173	les chauffeurs de taxi déménage	unexpected	4	déménage
+347	174	les chauffeurs de taxi parlent	expected	4	parlent
+348	174	les chauffeurs de taxi parle	unexpected	4	parle
+349	175	les chauffeurs de taxi retournent	expected	4	retournent
+350	175	les chauffeurs de taxi retourne	unexpected	4	retourne
+351	176	les danseurs sont vieux	expected	2	sont
+352	176	les danseurs est vieux	unexpected	2	est
+353	177	les danseurs sont jeunes	expected	2	sont
+354	177	les danseurs est jeune	unexpected	2	est
+355	178	les danseurs sont petits	expected	2	sont
+356	178	les danseurs est petit	unexpected	2	est
+357	179	les danseurs sont grands	expected	2	sont
+358	179	les danseurs est grand	unexpected	2	est
+359	180	les danseurs déménagent	expected	2	déménagent
+360	180	les danseurs déménage	unexpected	2	déménage
+361	181	les danseurs parlent	expected	2	parlent
+362	181	les danseurs parle	unexpected	2	parle
+363	182	les danseurs retournent	expected	2	retournent
+364	182	les danseurs retourne	unexpected	2	retourne
+365	183	les architectes sont vieux	expected	2	sont
+366	183	les architectes est vieux	unexpected	2	est
+367	184	les architectes sont jeunes	expected	2	sont
+368	184	les architectes est jeune	unexpected	2	est
+369	185	les architectes sont petits	expected	2	sont
+370	185	les architectes est petit	unexpected	2	est
+371	186	les architectes sont grands	expected	2	sont
+372	186	les architectes est grand	unexpected	2	est
+373	187	les architectes déménagent	expected	2	déménagent
+374	187	les architectes déménage	unexpected	2	déménage
+375	188	les architectes parlent	expected	2	parlent
+376	188	les architectes parle	unexpected	2	parle
+377	189	les architectes retournent	expected	2	retournent
+378	189	les architectes retourne	unexpected	2	retourne
+379	190	les chefs sont vieux	expected	2	sont
+380	190	les chefs est vieux	unexpected	2	est
+381	191	les chefs sont jeunes	expected	2	sont
+382	191	les chefs est jeune	unexpected	2	est
+383	192	les chefs sont petits	expected	2	sont
+384	192	les chefs est petit	unexpected	2	est
+385	193	les chefs sont grands	expected	2	sont
+386	193	les chefs est grand	unexpected	2	est
+387	194	les chefs déménagent	expected	2	déménagent
+388	194	les chefs déménage	unexpected	2	déménage
+389	195	les chefs parlent	expected	2	parlent
+390	195	les chefs parle	unexpected	2	parle
+391	196	les chefs retournent	expected	2	retournent
+392	196	les chefs retourne	unexpected	2	retourne
+393	197	les patineurs sont vieux	expected	2	sont
+394	197	les patineurs est vieux	unexpected	2	est
+395	198	les patineurs sont jeunes	expected	2	sont
+396	198	les patineurs est jeune	unexpected	2	est
+397	199	les patineurs sont petits	expected	2	sont
+398	199	les patineurs est petit	unexpected	2	est
+399	200	les patineurs sont grands	expected	2	sont
+400	200	les patineurs est grand	unexpected	2	est
+401	201	les patineurs déménagent	expected	2	déménagent
+402	201	les patineurs déménage	unexpected	2	déménage
+403	202	les patineurs parlent	expected	2	parlent
+404	202	les patineurs parle	unexpected	2	parle
+405	203	les patineurs retournent	expected	2	retournent
+406	203	les patineurs retourne	unexpected	2	retourne
+407	204	les parents sont vieux	expected	2	sont
+408	204	les parents est vieux	unexpected	2	est
+409	205	les parents sont jeunes	expected	2	sont
+410	205	les parents est jeune	unexpected	2	est
+411	206	les parents sont petits	expected	2	sont
+412	206	les parents est petit	unexpected	2	est
+413	207	les parents sont grands	expected	2	sont
+414	207	les parents est grand	unexpected	2	est
+415	208	les parents déménagent	expected	2	déménagent
+416	208	les parents déménage	unexpected	2	déménage
+417	209	les parents parlent	expected	2	parlent
+418	209	les parents parle	unexpected	2	parle
+419	210	les parents retournent	expected	2	retournent
+420	210	les parents retourne	unexpected	2	retourne
+421	211	le garde est vieux	expected	2	est
+422	211	le garde sont vieux	unexpected	2	sont
+423	212	le garde est jeune	expected	2	est
+424	212	le garde sont jeunes	unexpected	2	sont
+425	213	le garde est petit	expected	2	est
+426	213	le garde sont petits	unexpected	2	sont
+427	214	le garde est grand	expected	2	est
+428	214	le garde sont grands	unexpected	2	sont
+429	215	le garde déménage	expected	2	déménage
+430	215	le garde déménagent	unexpected	2	déménagent
+431	216	le garde parle	expected	2	parle
+432	216	le garde parlent	unexpected	2	parlent
+433	217	le garde retourne	expected	2	retourne
+434	217	le garde retournent	unexpected	2	retournent
+435	218	le ministre est vieux	expected	2	est
+436	218	le ministre sont vieux	unexpected	2	sont
+437	219	le ministre est jeune	expected	2	est
+438	219	le ministre sont jeunes	unexpected	2	sont
+439	220	le ministre est petit	expected	2	est
+440	220	le ministre sont petits	unexpected	2	sont
+441	221	le ministre est grand	expected	2	est
+442	221	le ministre sont grands	unexpected	2	sont
+443	222	le ministre déménage	expected	2	déménage
+444	222	le ministre déménagent	unexpected	2	déménagent
+445	223	le ministre parle	expected	2	parle
+446	223	le ministre parlent	unexpected	2	parlent
+447	224	le ministre retourne	expected	2	retourne
+448	224	le ministre retournent	unexpected	2	retournent
+449	225	le cadre est vieux	expected	2	est
+450	225	le cadre sont vieux	unexpected	2	sont
+451	226	le cadre est jeune	expected	2	est
+452	226	le cadre sont jeunes	unexpected	2	sont
+453	227	le cadre est petit	expected	2	est
+454	227	le cadre sont petits	unexpected	2	sont
+455	228	le cadre est grand	expected	2	est
+456	228	le cadre sont grands	unexpected	2	sont
+457	229	le cadre déménage	expected	2	déménage
+458	229	le cadre déménagent	unexpected	2	déménagent
+459	230	le cadre parle	expected	2	parle
+460	230	le cadre parlent	unexpected	2	parlent
+461	231	le cadre retourne	expected	2	retourne
+462	231	le cadre retournent	unexpected	2	retournent
+463	232	l' adjoint est vieux	expected	2	est
+464	232	l' adjoint sont vieux	unexpected	2	sont
+465	233	l' adjoint est jeune	expected	2	est
+466	233	l' adjoint sont jeunes	unexpected	2	sont
+467	234	l' adjoint est petit	expected	2	est
+468	234	l' adjoint sont petits	unexpected	2	sont
+469	235	l' adjoint est grand	expected	2	est
+470	235	l' adjoint sont grands	unexpected	2	sont
+471	236	l' adjoint déménage	expected	2	déménage
+472	236	l' adjoint déménagent	unexpected	2	déménagent
+473	237	l' adjoint parle	expected	2	parle
+474	237	l' adjoint parlent	unexpected	2	parlent
+475	238	l' adjoint retourne	expected	2	retourne
+476	238	l' adjoint retournent	unexpected	2	retournent
+477	239	le chauffeur de taxi est vieux	expected	4	est
+478	239	le chauffeur de taxi sont vieux	unexpected	4	sont
+479	240	le chauffeur de taxi est jeune	expected	4	est
+480	240	le chauffeur de taxi sont jeunes	unexpected	4	sont
+481	241	le chauffeur de taxi est petit	expected	4	est
+482	241	le chauffeur de taxi sont petits	unexpected	4	sont
+483	242	le chauffeur de taxi est grand	expected	4	est
+484	242	le chauffeur de taxi sont grands	unexpected	4	sont
+485	243	le chauffeur de taxi déménage	expected	4	déménage
+486	243	le chauffeur de taxi déménagent	unexpected	4	déménagent
+487	244	le chauffeur de taxi parle	expected	4	parle
+488	244	le chauffeur de taxi parlent	unexpected	4	parlent
+489	245	le chauffeur de taxi retourne	expected	4	retourne
+490	245	le chauffeur de taxi retournent	unexpected	4	retournent
+491	246	le danseur est vieux	expected	2	est
+492	246	le danseur sont vieux	unexpected	2	sont
+493	247	le danseur est jeune	expected	2	est
+494	247	le danseur sont jeunes	unexpected	2	sont
+495	248	le danseur est petit	expected	2	est
+496	248	le danseur sont petits	unexpected	2	sont
+497	249	le danseur est grand	expected	2	est
+498	249	le danseur sont grands	unexpected	2	sont
+499	250	le danseur déménage	expected	2	déménage
+500	250	le danseur déménagent	unexpected	2	déménagent
+501	251	le danseur parle	expected	2	parle
+502	251	le danseur parlent	unexpected	2	parlent
+503	252	le danseur retourne	expected	2	retourne
+504	252	le danseur retournent	unexpected	2	retournent
+505	253	l' architecte est vieux	expected	2	est
+506	253	l' architecte sont vieux	unexpected	2	sont
+507	254	l' architecte est jeune	expected	2	est
+508	254	l' architecte sont jeunes	unexpected	2	sont
+509	255	l' architecte est petit	expected	2	est
+510	255	l' architecte sont petits	unexpected	2	sont
+511	256	l' architecte est grand	expected	2	est
+512	256	l' architecte sont grands	unexpected	2	sont
+513	257	l' architecte déménage	expected	2	déménage
+514	257	l' architecte déménagent	unexpected	2	déménagent
+515	258	l' architecte parle	expected	2	parle
+516	258	l' architecte parlent	unexpected	2	parlent
+517	259	l' architecte retourne	expected	2	retourne
+518	259	l' architecte retournent	unexpected	2	retournent
+519	260	le chef est vieux	expected	2	est
+520	260	le chef sont vieux	unexpected	2	sont
+521	261	le chef est jeune	expected	2	est
+522	261	le chef sont jeunes	unexpected	2	sont
+523	262	le chef est petit	expected	2	est
+524	262	le chef sont petits	unexpected	2	sont
+525	263	le chef est grand	expected	2	est
+526	263	le chef sont grands	unexpected	2	sont
+527	264	le chef déménage	expected	2	déménage
+528	264	le chef déménagent	unexpected	2	déménagent
+529	265	le chef parle	expected	2	parle
+530	265	le chef parlent	unexpected	2	parlent
+531	266	le chef retourne	expected	2	retourne
+532	266	le chef retournent	unexpected	2	retournent
+533	267	le patineur est vieux	expected	2	est
+534	267	le patineur sont vieux	unexpected	2	sont
+535	268	le patineur est jeune	expected	2	est
+536	268	le patineur sont jeunes	unexpected	2	sont
+537	269	le patineur est petit	expected	2	est
+538	269	le patineur sont petits	unexpected	2	sont
+539	270	le patineur est grand	expected	2	est
+540	270	le patineur sont grands	unexpected	2	sont
+541	271	le patineur déménage	expected	2	déménage
+542	271	le patineur déménagent	unexpected	2	déménagent
+543	272	le patineur parle	expected	2	parle
+544	272	le patineur parlent	unexpected	2	parlent
+545	273	le patineur retourne	expected	2	retourne
+546	273	le patineur retournent	unexpected	2	retournent
+547	274	le parent est vieux	expected	2	est
+548	274	le parent sont vieux	unexpected	2	sont
+549	275	le parent est jeune	expected	2	est
+550	275	le parent sont jeunes	unexpected	2	sont
+551	276	le parent est petit	expected	2	est
+552	276	le parent sont petits	unexpected	2	sont
+553	277	le parent est grand	expected	2	est
+554	277	le parent sont grands	unexpected	2	sont
+555	278	le parent déménage	expected	2	déménage
+556	278	le parent déménagent	unexpected	2	déménagent
+557	279	le parent parle	expected	2	parle
+558	279	le parent parlent	unexpected	2	parlent
+559	280	le parent retourne	expected	2	retourne
+560	280	le parent retournent	unexpected	2	retournent
