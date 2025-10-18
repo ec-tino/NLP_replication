@@ -1,4 +1,5 @@
 exp: MinimalPair
+device: cuda
 
 mode:
   - evaluate
@@ -7,26 +8,135 @@ mode:
 models:
     hf_masked_model:
       - google-bert/bert-base-multilingual-cased
-      - google-bert/bert-base-cased
+      #- google-bert/bert-base-cased
+
+
+# french
+
+# datafpath: midterm/language/french/data_file/long_vp_coord.tsv
+# predfpath: midterm/language/french/pred_file/pred_long_vp_coord_fr.tsv
+# resultsfpath: midterm/language/french/results_file/res_long_vp_coord_fr.tsv
+
+# datafpath: midterm/language/french/data_file/obj_rel_across_anim.tsv
+# predfpath: midterm/language/french/pred_file/pred_obj_rel_across_anim_fr.tsv
+# resultsfpath: midterm/language/french/results_file/res_obj_rel_across_anim_fr.tsv
+
+# datafpath: midterm/language/french/data_file/obj_rel_within_anim.tsv
+# predfpath: midterm/language/french/pred_file/pred_obj_rel_within_anim_fr.tsv
+# resultsfpath: midterm/language/french/results_file/res_obj_rel_within_anim_fr.tsv
+
+# datafpath: midterm/language/french/data_file/prep_anim.tsv
+# predfpath: midterm/language/french/pred_file/pred_prep_anim_fr.tsv
+# resultsfpath: midterm/language/french/results_file/res_prep_anim_fr.tsv
+
+# datafpath: midterm/language/french/data_file/simple_agrmt.tsv
+# predfpath: midterm/language/french/pred_file/pred_simple_agrmt_fr.tsv
+# resultsfpath: midterm/language/french/results_file/res_simple_agrmt_fr.tsv
+
+# datafpath: midterm/language/french/data_file/subj_rel.tsv
+# predfpath: midterm/language/french/pred_file/pred_subj_rel_fr.tsv
+# resultsfpath: midterm/language/french/results_file/res_subj_rel_fr.tsv
+
+# datafpath: midterm/language/french/data_file/vp_coord.tsv
+# predfpath: midterm/language/french/pred_file/pred_vp_coord_fr.tsv
+# resultsfpath: midterm/language/french/results_file/res_vp_coord_fr.tsv
+
+
+
+# hebrew
+
+# datafpath: midterm/language/hebrew/data_file/long_vp_coord.tsv
+# predfpath: midterm/language/hebrew/pred_file/pred_long_vp_coord_he.tsv
+# resultsfpath: midterm/language/hebrew/results_file/res_long_vp_coord_he.tsv
+
+# datafpath: midterm/language/hebrew/data_file/obj_rel_across_anim.tsv
+# predfpath: midterm/language/hebrew/pred_file/pred_obj_rel_across_anim_he.tsv
+# resultsfpath: midterm/language/hebrew/results_file/res_obj_rel_across_anim_he.tsv
+
+# datafpath: midterm/language/hebrew/data_file/obj_rel_within_anim.tsv
+# predfpath: midterm/language/hebrew/pred_file/pred_obj_rel_within_anim_he.tsv
+# resultsfpath: midterm/language/hebrew/results_file/res_obj_rel_within_anim_he.tsv
+
+# datafpath: midterm/language/hebrew/data_file/prep_anim.tsv
+# predfpath: midterm/language/hebrew/pred_file/pred_prep_anim_he.tsv
+# resultsfpath: midterm/language/hebrew/results_file/res_prep_anim_he.tsv
+
+# datafpath: midterm/language/hebrew/data_file/simple_agrmt.tsv
+# predfpath: midterm/language/hebrew/pred_file/pred_simple_agrmt_he.tsv
+# resultsfpath: midterm/language/hebrew/results_file/res_simple_agrmt_he.tsv
+
+# datafpath: midterm/language/hebrew/data_file/subj_rel.tsv
+# predfpath: midterm/language/hebrew/pred_file/pred_subj_rel_he.tsv
+# resultsfpath: midterm/language/hebrew/results_file/res_subj_rel_he.tsv
+
+# datafpath: midterm/language/hebrew/data_file/vp_coord.tsv
+# predfpath: midterm/language/hebrew/pred_file/pred_vp_coord_he.tsv
+# resultsfpath: midterm/language/hebrew/results_file/res_vp_coord_he.tsv
+
+
+
+# german
+
+# datafpath: midterm/language/german/data_file/long_vp_coord.tsv
+# predfpath: midterm/language/german/pred_file/pred_long_vp_coord_germ.tsv
+# resultsfpath: midterm/language/german/results_file/res_long_vp_coord_germ.tsv
+
+# datafpath: midterm/language/german/data_file/obj_rel_across_anim.tsv
+# predfpath: midterm/language/german/pred_file/pred_obj_rel_across_anim_germ.tsv
+# resultsfpath: midterm/language/german/results_file/res_obj_rel_across_anim_germ.tsv
+
+# datafpath: midterm/language/german/data_file/obj_rel_within_anim.tsv
+# predfpath: midterm/language/german/pred_file/pred_obj_rel_within_anim_germ.tsv
+# resultsfpath: midterm/language/german/results_file/res_obj_rel_within_anim_germ.tsv
+
+# datafpath: midterm/language/german/data_file/prep_anim.tsv
+# predfpath: midterm/language/german/pred_file/pred_prep_anim_germ.tsv
+# resultsfpath: midterm/language/german/results_file/res_prep_anim_germ.tsv
+
+# datafpath: midterm/language/german/data_file/simple_agrmt.tsv
+# predfpath: midterm/language/german/pred_file/pred_simple_agrmt_germ.tsv
+# resultsfpath: midterm/language/german/results_file/res_simple_agrmt_germ.tsv
+
+# datafpath: midterm/language/german/data_file/subj_rel.tsv
+# predfpath: midterm/language/german/pred_file/pred_subj_rel_germ.tsv
+# resultsfpath: midterm/language/german/results_file/res_subj_rel_germ.tsv
+
+# datafpath: midterm/language/german/data_file/vp_coord.tsv
+# predfpath: midterm/language/german/pred_file/pred_vp_coord_germ.tsv
+# resultsfpath: midterm/language/german/results_file/res_vp_coord_germ.tsv
+
+
+
+# russian
     
-datafpath: ../midterm/language/english/data_file/long_vp_coord.tsv
-predfpath: ../midterm/language/english/pred_file/long_vp_coord.tsv
-resultsfpath: ../midterm/language/english/results_file/long_vp_coord.tsv
+# datafpath: midterm/language/russian/data_file/long_vp_coord.tsv
+# predfpath: midterm/language/russian/pred_file/pred_long_vp_coord_rus.tsv
+# resultsfpath: midterm/language/russian/results_file/res_long_vp_coord_rus.tsv
 
-# datafpath: ../midterm/language/english/data_file/npi_across_anim.tsv
-# predfpath: ../midterm/language/english/pred_file/npi_across_anim.tsv
-# resultsfpath: ../midterm/language/english/results_file/npi_across_anim.tsv
+# datafpath: midterm/language/russian/data_file/obj_rel_across_anim.tsv
+# predfpath: midterm/language/russian/pred_file/pred_obj_rel_across_anim_rus.tsv
+# resultsfpath: midterm/language/russian/results_file/res_obj_rel_across_anim_rus.tsv
 
-# datafpath: ../midterm/language/english/data_file/npi_across_inanim.tsv
-# predfpath: ../midterm/language/english/pred_file/npi_across_inanim.tsv
-# resultsfpath: ../midterm/language/english/results_file/npi_across_inanim.tsv
+# datafpath: midterm/language/russian/data_file/obj_rel_within_anim.tsv
+# predfpath: midterm/language/russian/pred_file/pred_obj_rel_within_anim_rus.tsv
+# resultsfpath: midterm/language/russian/results_file/res_obj_rel_within_anim_rus.tsv
 
-# datafpath: ../midterm/language/english/data_file/obj_rel_across_anim.tsv
-# predfpath: ../midterm/language/english/pred_file/obj_rel_across_anim.tsv
-# resultsfpath: ../midterm/language/english/results_file/obj_rel_across_anim.tsv
+# datafpath: midterm/language/russian/data_file/prep_anim.tsv
+# predfpath: midterm/language/russian/pred_file/pred_prep_anim_rus.tsv
+# resultsfpath: midterm/language/russian/results_file/res_prep_anim_rus.tsv
 
-# datafpath: ../midterm/language/english/data_file/obj_rel_across_inanim.tsv
-# predfpath: ../midterm/language/english/pred_file/obj_rel_across_inanim.tsv
-# resultsfpath: ../midterm/language/english/results_file/obj_rel_across_inanim.tsv
+# datafpath: midterm/language/russian/data_file/simple_agrmt.tsv
+# predfpath: midterm/language/russian/pred_file/pred_simple_agrmt_rus.tsv
+# resultsfpath: midterm/language/russian/results_file/res_simple_agrmt_rus.tsv
+
+# datafpath: midterm/language/russian/data_file/subj_rel.tsv
+# predfpath: midterm/language/russian/pred_file/pred_subj_rel_rus.tsv
+# resultsfpath: midterm/language/russian/results_file/res_subj_rel_rus.tsv
+
+# datafpath: midterm/language/russian/data_file/vp_coord.tsv
+# predfpath: midterm/language/russian/pred_file/pred_vp_coord_rus.tsv
+# resultsfpath: midterm/language/russian/results_file/res_vp_coord_rus.tsv
+
+
 
 save: by_cond
